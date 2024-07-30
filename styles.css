@@ -1,0 +1,165 @@
+body {
+    font-family: "Playfair Display", serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin: 0;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 95%;
+    margin: 1% 1% 1% 1%;
+    background: url(./pawel-nolbert-4u2U8EO9OzY-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+.img-info {
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-size: 100%;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    margin-top: 40%;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic ;
+}
+
+.form{
+    margin-left: 3%;
+    margin: 0;
+    padding: 0;
+    margin-top: 3%;
+}
+
+.form > * {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.form-info {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    text-decoration:line-through;
+}
+
+.input-title {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: overline;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.form-label {
+    font-weight: 900;
+    font-size: 16px;
+    display: block;
+    transition: all 0.5s;
+    transform: translateY(-3.4rem);
+    color: white;
+}
+
+.form-input {
+    border: 2px solid gray;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 0.2rem 0.2rem;
+    border-radius: 0.2rem;
+    width: 100%;
+    display: block;
+    transition: all 0.5s;
+    margin-top: 5%;
+    padding-right: 10%;
+}
+
+.form-input:focus{
+    transition: 0.2s;
+    outline: none;
+    border: 2px solid black(89, 121, 145);
+}
+
+.form-input:placeholder-shown + .form-label{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.form-input::placeholder {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-style: italic;
+}    
+
+form{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    width: 100%;
+    margin-left: 0;
+    background-color: rgba(247, 119, 7, 0.93);
+    border-radius: 5px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.inputs > :last-child{
+    padding-left: 15%;
+}
+
+.login {
+    text-decoration: none;
+    color: white;
+}
+
+.login-question{
+    color: white;
+    text-transform: uppercase;
+}
+
+.form-end {
+    margin-top: 20px;
+    position: absolute;
+    font-size: 10px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    background: rgba(247, 119, 7, 0.93);
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    font-family:'Playfair Display', serif ;
+    text-decoration: line-through;
+}
